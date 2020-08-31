@@ -18,13 +18,13 @@
         <nav>
             <ol>
                 <li>
-                    <a href="#">Portafolio</a>
+                    <a href="#portfolio">Portafolio</a>
                 </li>
                 <li>
-                    <a href="#">Experiencia</a>
+                    <a href="#formation">Formacion Academica</a>
                 </li>
                 <li>
-                    <a href="#">¡Trabajemos juntos!</a>
+                    <a href="#contact">¡Trabajemos juntos!</a>
                 </li>
             </ol>
         </nav>
@@ -33,7 +33,7 @@
         <h1>Hola! Soy <strong>Enzo Arebalos</strong> <br> Desarrollador de <strong>Software</strong> <br> Bienvenidos a mi <strong>pagina web</strong></h1>
         <img src="image/portada.jpg" alt="imagen de portada">
     </section>
-    <section>
+    <section id="portfolio">
         <h2>Portafolio (Proyectos destacados)</h2>
         <article>
             <h3>hyperblog</h3>
@@ -44,14 +44,22 @@
             <p>Descripcion del proyecto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat fugit ipsum dolorem itaque enim, sed quasi illo. Cupiditate consequatur ipsa autem quae voluptas? Dicta sint ad deleniti ea! Cumque, maxime.</p>
         </article>
     </section>
-    <section>
+    <section id="formation">
         <h2>Formacion Academica</h2>
         <article>
             <img src="image/formacion.jpg" alt="imagen de formacion academica">
             <h3>descripcion Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam debitis harum natus assumenda tempore earum corporis repellat quas repellendus quos, dignissimos eaque, nulla vel eligendi, facere neque sunt quibusdam! Facilis.</h3>
         </article>
     </section>
-    <section>seccion contacto</section>
+    <section id="contact">
+        <H2>Contacto</H2>
+        <form action="/contacto/">
+            <h3>¿Creamos algo juntos?</h3>
+            <label for="email">Dejame tu email</label>
+            <input type="datetime" placeholder="ej. email@gmail.com" id="email">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
     <footer></footer>
     
 </body>
